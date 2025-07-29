@@ -3,7 +3,6 @@
 
 /*
 This code shows how to display a video given a path
-
 */
 
 /**
@@ -22,7 +21,7 @@ int main(int argc, char const *argv[])
 
     cv::Mat frame;
     for(;;){
-        cap >> frame;
+        cap.read(frame); // or cap >> frame
         if(frame.empty()) break;
         cv::imshow("Cam", frame);
         if(cv::waitKey(33)>=0) break;
