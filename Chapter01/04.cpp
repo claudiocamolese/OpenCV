@@ -57,6 +57,7 @@ int main(int argc, char** argv)
     }
 
     cv::Mat img = cv::imread(argv[1], -1);
+    
     if (img.empty()) {
         std::cerr << "Image not found" << std::endl;
         return -1;
