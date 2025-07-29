@@ -203,6 +203,12 @@ OpenCV_DIR:PATH=C:/opt/opencv/build
 //Path al file sorgente da compilare (relativo al root)
 TARGET_SRC:STRING=Chapter01/03.cpp
 
+//Path al file sorgente da compilare (relativo al root)
+scr:STRING=
+
+//Path al file sorgente da compilare (relativo al root)
+src:STRING=Chapter01/04.cpp
+
 
 ########################
 # INTERNAL cache entries

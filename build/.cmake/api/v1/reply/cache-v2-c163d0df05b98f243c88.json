@@ -1088,6 +1088,30 @@
 			],
 			"type" : "STRING",
 			"value" : "Chapter01/03.cpp"
+		},
+		{
+			"name" : "scr",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path al file sorgente da compilare (relativo al root)"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "src",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path al file sorgente da compilare (relativo al root)"
+				}
+			],
+			"type" : "STRING",
+			"value" : "Chapter01/04.cpp"
 		}
 	],
 	"kind" : "cache",
