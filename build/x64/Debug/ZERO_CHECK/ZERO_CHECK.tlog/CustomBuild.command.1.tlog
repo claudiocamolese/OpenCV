@@ -1,0 +1,10 @@
+^C:\USERS\CLAUDIO\DESKTOP\OPENCV\BUILD\CMAKEFILES\47B224C6A8864452FD3E3B77B3ACCEEA\GENERATE.STAMP.RULE
+setlocal
+C:\mingw64\bin\cmake.exe -SC:/Users/Claudio/Desktop/OpenCV -BC:/Users/Claudio/Desktop/OpenCV/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Claudio/Desktop/OpenCV/build/DynamicOpenCVExample.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
