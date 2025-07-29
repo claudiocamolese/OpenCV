@@ -3,6 +3,7 @@
 
 /* 
 This code applies a serie of sequental operation on a given image. 
+Then, extract the central pixel of the image and change its color.
 */
 
 
