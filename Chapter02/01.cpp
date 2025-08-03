@@ -108,16 +108,16 @@ int main() {
 
     int color_key = 1;  // colore iniziale = rosso
 
-    // Prepara la struct da passare al callback
+    // Prepare the struct for callback data
     CallbackData data;
     data.image = &image;
     data.color_key = &color_key;
 
-    // Finestra e callback
+    // Window setup
     cv::namedWindow("Box Example");
     cv::setMouseCallback("Box Example", my_mouse_callback, &data);
 
-    // Loop principale
+    // Main loop
     while (true) {
         image.copyTo(temp);
 

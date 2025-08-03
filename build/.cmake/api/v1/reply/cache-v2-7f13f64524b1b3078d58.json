@@ -1078,16 +1078,28 @@
 			"value" : "C:/opt/opencv/build"
 		},
 		{
+			"name" : "SRC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "Chapter01/01.cpp"
+		},
+		{
 			"name" : "TARGET_SRC",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path al file sorgente da compilare (relativo al root)"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
-			"value" : "Chapter01/03.cpp"
+			"type" : "UNINITIALIZED",
+			"value" : "Chapter01/01.cpp"
 		},
 		{
 			"name" : "scr",
@@ -1111,7 +1123,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Chapter02/01.cpp"
+			"value" : "Chapter03/03.cpp"
 		}
 	],
 	"kind" : "cache",

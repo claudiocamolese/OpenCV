@@ -173,9 +173,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Claudio\Desktop\OpenCV\build\01.vcxproj">
-      <Project>{772E04A8-1CC9-37B2-9CDD-3DCC91DDAD07}</Project>
-      <Name>01</Name>
+    <ProjectReference Include="C:\Users\Claudio\Desktop\OpenCV\build\03.vcxproj">
+      <Project>{AB86E63E-75E8-31E1-8676-CBD8AB43030C}</Project>
+      <Name>03</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
